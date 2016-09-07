@@ -63,7 +63,7 @@ public class StockChartActivity extends AppCompatActivity implements LoaderManag
             renderChart(data);
         }
         else {
-            Toast.makeText(this, "No chart data", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.no_chart_data, Toast.LENGTH_SHORT).show();
         }
     }
 
